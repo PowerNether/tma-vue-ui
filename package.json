@@ -14,17 +14,22 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "peerDependencies": {
     "vue": ">=3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^8.2.0",
+    "@storybook/vue3-vite": "^10.4.1",
     "@vitejs/plugin-vue": "^6.0.6",
     "eslint": "^10.2.1",
     "eslint-plugin-format": "^2.0.1",
+    "eslint-plugin-storybook": "^10.4.1",
     "jiti": "^2.6.1",
+    "storybook": "^10.4.1",
     "typescript": "~6.0.2",
     "vite": "^8.0.3",
     "vite-plugin-dts": "^4.5.4",
