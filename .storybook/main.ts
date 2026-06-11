@@ -5,7 +5,12 @@ const config: StorybookConfig = {
     '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
   ],
   addons: [],
-  framework: '@storybook/vue3-vite',
+  framework: {
+    name: '@storybook/vue3-vite',
+    options: {
+      docgen: 'vue-component-meta',
+    },
+  },
 }
 
 export default config
