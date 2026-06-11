@@ -3,7 +3,6 @@
     "target": "es2023",
     "lib": ["ES2023", "DOM"],
     "moduleDetection": "force",
-    "rootDir": "./src",
     "module": "esnext",
     "moduleResolution": "bundler",
     "types": ["vite/client"],
@@ -16,5 +15,5 @@
     "erasableSyntaxOnly": true,
     "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": ["src", ".storybook/**/*"]
 }
